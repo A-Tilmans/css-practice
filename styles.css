@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Roboto:wght@300;500&display=swap');
+
+body {
+    background-color: hsl(280, 13%, 87%);
+    color: 	hsl(223, 10%, 36%);
+    font-family: 'Poppins', 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.4em;
+}
+
+#introduction {
+    font-weight: bold;
+}
+
+ul {
+    list-style: square;
+}
+
+button {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(280, 13%, 87%);
+    font-size: 24px;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
